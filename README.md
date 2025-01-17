@@ -28,6 +28,9 @@ Graph Construction" by Bowen Zhang1 and Harold Soh1. Idea was to extract text in
      - `(:Entity1)-[:ACTS]->(:Entity2)`
    - Store the structured graph in Neo4j.
 
+   A sample schmea from Neo4j is pasted below.
+   ![alt text](Screenshots/Schema.png)
+
 ### **Phase 3: Structured Query Retrieval (RAG Model)**
 1. **Query Processing:**
    - Takes an **unstructured natural language query**.
