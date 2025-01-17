@@ -28,6 +28,7 @@ def get_cypher_query(nl_query):
                 - Each summary node is connected to triplet entities: `(s)-[:CONTAINS]->(e1)` and `(s)-[:CONTAINS]->(e2)`
                 - Triplet entities are connected through relationships labeled `ACTS` with an attribute `relation` representing the connection between them:  
                 `(e1)-[:ACTS relation: <relation_value>]->(e2)`
+                - Values for entities can be lower case or upper case, check for values in e1 and e2 both. 
 
                 Generate a correct Cypher query that follows this schema. 
                 """
@@ -66,10 +67,13 @@ def main():
     q_multi2 = "List all directors which made more than 1 movies in the year 1925"
     q_recc = "Suggest top 5 WAR movies"
     q_sim = 'Suggest 5 movies similar to the movie The Black Viper'
-    q_desc = 'Suggest a movie which has an Irish man'
+    q_desc = 'Suggest movies which has an Irish man or Irish based theme'
     
     
     cypher_query = get_cypher_query(q_desc)
+
+    print(f"\nUnstructured Query:\n{q_desc}")
+
     print(f"\nGenerated Cypher Query:\n{cypher_query}")
     
     results = execute_cypher_query(cypher_query)

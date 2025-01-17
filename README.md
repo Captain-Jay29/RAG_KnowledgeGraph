@@ -49,6 +49,17 @@ Graph Construction" by Bowen Zhang1 and Harold Soh1. Idea was to extract text in
   - "List movies where Leonardo DiCaprio has acted."
 - No dependency on **vector search** or **semantic retrieval**, ensuring high precision from structured data.
 
+Sample outputs for queries are pasted below.
+<p align="center">
+  <img src="/Screenshots/Sample_Output1.png" width="45%" />
+  <img src="/Screenshots/Sample_Output2.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="/Screenshots/Sample_Output3.png" width="45%" />
+  <img src="/Screenshots/Sample_Output4.png" width="45%" />
+</p>
+
 ## Tech Stack
 - **Python**: Core language for data processing, API calls, and retrieval logic
 - **Neo4j**: Graph database for structured movie knowledge representation
