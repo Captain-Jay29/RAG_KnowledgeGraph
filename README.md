@@ -51,7 +51,7 @@ Graph Construction" by Bowen Zhang1 and Harold Soh1. Idea was to extract text in
 
 Sample outputs for queries are pasted below.
 <p align="center">
-  <img src="/Screenshots/Sample_Output1.png" width="45%" />
+  <img src="/Screenshots/Sample_Output6.png" width="45%" />
   <img src="/Screenshots/Sample_Output2.png" width="45%" />
 </p>
 
@@ -59,6 +59,11 @@ Sample outputs for queries are pasted below.
   <img src="/Screenshots/Sample_Output3.png" width="45%" />
   <img src="/Screenshots/Sample_Output4.png" width="45%" />
 </p>
+
+<p align="center">
+  <img src="/Screenshots/Sample_Output1.png" width="45%" />
+</p>
+
 
 ## Tech Stack
 - **Python**: Core language for data processing, API calls, and retrieval logic

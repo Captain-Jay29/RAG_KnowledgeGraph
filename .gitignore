@@ -4,8 +4,9 @@
 /Phase1_EntityGen/extracted_triplets.json
 cleaned_triplets.json
 cleaned_wiki_movie_plots.csv
+Phase1_EntityGen/LastMovieAdded.txt
+wiki_movie_plots.csv
 
 # Ignore system-generated files
 __pycache__/
 *.log.env
-cleaned_triplets.json
