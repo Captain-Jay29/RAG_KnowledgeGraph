@@ -4,6 +4,9 @@
 This project builds a **Retrieval-Augmented Generation (RAG)** model that leverages a **structured knowledge graph** for querying movie-related data. Instead of using vector-based retrieval, the system employs a **graph-based approach** using **Neo4j** and **LLM-powered structured query generation** to retrieve information. The movie dataset is processed into structured triplets, stored in a knowledge graph, and queried efficiently using Cypher queries.
 
 ## Pipeline
+![image](https://github.com/user-attachments/assets/17a9e975-b35c-417f-bcba-293e88b8a4e3)
+
+
 The project is divided into three major phases:
 
 ### **Phase 1: Data Processing & Triplet Extraction**
