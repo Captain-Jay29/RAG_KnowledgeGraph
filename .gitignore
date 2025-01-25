@@ -6,6 +6,7 @@ cleaned_triplets.json
 cleaned_wiki_movie_plots.csv
 Phase1_EntityGen/LastMovieAdded.txt
 wiki_movie_plots.csv
+potential_improvements.txt
 
 # Ignore system-generated files
 __pycache__/

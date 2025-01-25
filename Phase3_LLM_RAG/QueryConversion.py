@@ -117,14 +117,16 @@ def main():
     q_sim = 'Suggest 5 movies similar to the movie The Black Viper'
     q_desc = 'Suggest movies which has an Irish man or Irish based theme'
     q_summ = "Summarize the movie Terrible Teddy, the Grizzly King"
-    
-    cypher_query = get_cypher_query(q_summ)
 
-    print(f"\nUnstructured Query:\n{q_summ}")
+    user_query = input("Enter your query: ")
+    
+    cypher_query = get_cypher_query(user_query)
+
+    print(f"\nUnstructured Query:\n{user_query}")
     print(f"\nGenerated Cypher Query:\n{cypher_query}")
     
     results = execute_cypher_query(cypher_query)
-    final_response = clean_retrieved_results(q_summ, results) if results else "No results found"
+    final_response = clean_retrieved_results(user_query, results) if results else "No results found"
 
     print("\nQuery Results:")
     print(reprlib.repr(results))
