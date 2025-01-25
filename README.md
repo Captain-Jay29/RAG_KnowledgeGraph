@@ -76,6 +76,7 @@ Sample outputs for queries are pasted below.
 - **JSON**: Storage format for extracted triplets
 - **Cypher**: Query language for Neo4j
 - **Git**: Version control
+- **Docker**: Containerization Platform
 
 ---
 This project serves as foundation for **RAG-based knowledge retrieval using structured databases**. 🚀
