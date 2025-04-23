@@ -6,6 +6,7 @@ from collections import Counter
 import pickle
 import os
 from dotenv import load_dotenv
+import fickling
 
 load_dotenv()
 
@@ -58,7 +59,7 @@ def load_embeddings(filename="movie_embeddings.pkl"):
         np.ndarray: Loaded embeddings.
     """
     with open(filename, "rb") as f:
-        embeddings = pickle.load(f)
+        embeddings = fickling.load(f)
     return embeddings
 
 # Perform semantic search based on a query
