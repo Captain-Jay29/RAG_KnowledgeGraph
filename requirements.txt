@@ -1,3 +1,4 @@
 openai
 neo4j
 python-dotenv
+fickling>=0.1.3,~=0.1.0
